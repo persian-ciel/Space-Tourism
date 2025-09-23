@@ -4,7 +4,7 @@ import SpaceContent from "./Space";
 
 function MainContent() {
   return (
-    <div className="xl:p-[13%] xl:pb-[15%] h-screen relative md:p-[20%]"> 
+    <div className="xl:p-[13%] xl:pb-[15%] h-screen relative p-[17%]"> 
       <SpaceContent />
     </div>
   );

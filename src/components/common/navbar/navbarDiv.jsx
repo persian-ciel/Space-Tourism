@@ -10,15 +10,15 @@ function NavbarDiv({ activePath }) {
   ];
 
   return (
-    <div className="fixed right-0 w-1/2 z-50 p-6 backdrop-blur-2xl pr-[4%] backdrop-brightness-125">
-      <ul className="list-none m-0 p-0 flex gap-6 text-white justify-end">
+    <div className="hidden sm:block sm:fixed right-0 2xl:w-1/2 xl:w-1/2 md:w-10/12 z-50 2xl:p-6 xl:p-6 md:p-6  xl:backdrop-blur-2xl xl:bg-transparent md:bg-gray-800  sm:pr-[4%] 2xl:pr-[8%] backdrop-brightness-125">
+      <ul className="list-none m-0 p-0 flex sm:gap-6 2xl:gap-24 text-white justify-end">
         {nav.map((navbar) => (
           <NavbarTiltle
             key={navbar.id}
             to={navbar.path}
             number={navbar.num}
             name={navbar.title}
-            isActive={activePath === navbar.path} // pass boolean
+            isActive={activePath === navbar.path}
           />
         ))}
       </ul>
