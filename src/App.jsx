@@ -3,7 +3,7 @@ import Home from "./components/pages/home";
 import Destination from "./components/pages/destination/Index";
 
 function App() {
-  const location = useLocation(); // gives current URL
+  const location = useLocation(); 
 
   return (
     <>
@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home activePath={location.pathname} />} />
         <Route path="/destination" element={<Destination activePath={location.pathname} />} />
+        
       </Routes>
     </>
   );
