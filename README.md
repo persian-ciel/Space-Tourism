@@ -56,7 +56,8 @@ This launches the development server with HMR at http://localhost:5173 (default)
 <img width="190" height="421" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/6b85d77f-9124-4a49-9ac3-7ce95e7afcc3" />
 <img width="190" height="421" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/1f31d521-9766-42e8-b01c-3dde5835470b" />
 
-
+## Preview
+You can check the site on http://space-tourism-psi-steel.vercel.app/
 ### 🧰 Technologies Used
 
 - **Frontend**: React, Vite, Tailwind CSS
