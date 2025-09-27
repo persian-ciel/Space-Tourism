@@ -6,7 +6,7 @@ function NavbarDiv({ activePath }) {
     { id: 1, title: "HOME", num: "00", path: "/" },
     { id: 2, title: "DESTINATION", num: "01", path: "/destination" },
     { id: 3, title: "CREW", num: "02", path: "/crew" },
-    { id: 4, title: "TECHNOLOGY", num: "03", path: "/technology" },
+    
   ];
 
   return (

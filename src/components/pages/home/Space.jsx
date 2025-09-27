@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function SpaceContent() {
+  const navigate = useNavigate();
   return (
     <div className="xl:flex xl:justify-end xl:items-center h-full w-full md:block">
       <div className="xl:w-[48%] xl:flex-1 xl:items-center xl:text-left md:block md:w-full text-center">
@@ -17,6 +19,7 @@ function SpaceContent() {
       </div>
       <div className="xl:flex xl:w-[48%] xl:justify-center xl:items-center xl:mt-0 grid place-items-center w-full sm:mt-20  mt-10">
         <button
+        onClick={() => navigate("/destination")}
           className="bg-white rounded-full 2xl:w-80 2xl:h-80 2xl:text-3xl xl:w-44 xl:h-44 xl:text-lg md:text-2xl md:w-56 md:h-56 w-36 h-36 cursor-pointer hover:shadow-[0_0_40px_10px_rgba(255,255,255,0.7)] 
                transition duration-300 "
         >

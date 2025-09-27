@@ -56,11 +56,7 @@ function MainCrew() {
           <span className="uppercase 2xl:text-7xl xl:text-4xl">{name}</span>
           <p className="2xl:text-2xl xl:text-lg mt-2">{bio}</p>
           <div
-            className="
-    flex justify-center mt-5
-    xl:absolute xl:bottom-0 xl:left-0 xl:justify-start
-    w-full
-  "
+            className="flex justify-center mt-6 xl:absolute xl:bottom-0 xl:left-0 xl:justify-start w-full"
           >
             {crewData.map((_, idx) => (
               <button
