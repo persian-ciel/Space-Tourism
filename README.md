@@ -1,4 +1,4 @@
-# Multi-Step Site
+# Space Tourism
 
 A simple **Space Tourism site** built with **React** and **Vite**.
 
